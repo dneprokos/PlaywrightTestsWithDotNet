@@ -1,0 +1,76 @@
+2023-09-24T15:59:52.274Z pw:api navigating to "https://qa-automation-test-site.web.app/", waiting until "load"
+2023-09-24T15:59:52.420Z pw:api   "commit" event fired
+2023-09-24T15:59:52.421Z pw:api   navigated to "https://qa-automation-test-site.web.app/"
+2023-09-24T15:59:52.612Z pw:api   navigated to "https://qa-automation-test-site.web.app/login"
+2023-09-24T15:59:52.612Z pw:api   "domcontentloaded" event fired
+2023-09-24T15:59:52.894Z pw:api   "load" event fired
+2023-09-24T15:59:53.401Z pw:api   "networkidle" event fired
+2023-09-24T15:59:53.412Z pw:api LocatorAssertions.ToBeAttachedAsync with timeout 5000ms
+2023-09-24T15:59:53.414Z pw:api waiting for GetByRole(AriaRole.Button, new() { Name = "Login" })
+2023-09-24T15:59:53.435Z pw:api   locator resolved to <button id="loginBtn" color="primary" mat-raised-button=ΓÇª>ΓÇª</button>
+2023-09-24T15:59:53.443Z pw:api waiting for GetByText("Username")
+2023-09-24T15:59:53.448Z pw:api   locator resolved to <span class="ng-tns-c44-1 ng-star-inserted">Username</span>
+2023-09-24T15:59:53.450Z pw:api elementHandle.fill("test@test.com")
+2023-09-24T15:59:53.450Z pw:api   waiting for element to be visible, enabled and editable
+2023-09-24T15:59:53.456Z pw:api     forcing action
+2023-09-24T15:59:53.460Z pw:api   element is visible, enabled and editable
+2023-09-24T15:59:53.984Z pw:api waiting for GetByText("Password", new() { Exact = true })
+2023-09-24T15:59:53.987Z pw:api   locator resolved to <span class="ng-tns-c44-2 ng-star-inserted">Password</span>
+2023-09-24T15:59:53.989Z pw:api elementHandle.fill("test")
+2023-09-24T15:59:53.989Z pw:api   waiting for element to be visible, enabled and editable
+2023-09-24T15:59:53.994Z pw:api     forcing action
+2023-09-24T15:59:53.997Z pw:api   element is visible, enabled and editable
+2023-09-24T15:59:54.518Z pw:api waiting for GetByRole(AriaRole.Button, new() { Name = "Login" })
+2023-09-24T15:59:54.520Z pw:api   locator resolved to <button id="loginBtn" color="primary" mat-raised-button=ΓÇª>ΓÇª</button>
+2023-09-24T15:59:54.521Z pw:api attempting click action
+2023-09-24T15:59:54.522Z pw:api   waiting for element to be visible, enabled and stable
+2023-09-24T15:59:54.532Z pw:api   element is visible, enabled and stable
+2023-09-24T15:59:54.532Z pw:api   scrolling into view if needed
+2023-09-24T15:59:54.533Z pw:api   done scrolling
+2023-09-24T15:59:54.536Z pw:api   performing click action
+2023-09-24T15:59:54.558Z pw:api   navigated to "https://qa-automation-test-site.web.app/home"
+2023-09-24T15:59:54.594Z pw:api   click action done
+2023-09-24T15:59:54.594Z pw:api   waiting for scheduled navigations to finish
+2023-09-24T15:59:54.804Z pw:api   navigations have finished
+2023-09-24T15:59:55.319Z pw:api PageAssertions.ToHaveURLAsync with timeout 5000ms
+2023-09-24T15:59:55.321Z pw:api waiting for Locator(":root")
+2023-09-24T15:59:55.324Z pw:api   locator resolved to <html lang="en">ΓÇª</html>
+2023-09-24T15:59:55.328Z pw:api waiting for Locator("a:has-text('Check-boxes')")
+2023-09-24T15:59:55.331Z pw:api   locator resolved to <a tabindex="0" mat-button="" href="/check-box" ariΓÇª>ΓÇª</a>
+2023-09-24T15:59:55.332Z pw:api attempting click action
+2023-09-24T15:59:55.332Z pw:api   waiting for element to be visible, enabled and stable
+2023-09-24T15:59:55.345Z pw:api   element is visible, enabled and stable
+2023-09-24T15:59:55.345Z pw:api   scrolling into view if needed
+2023-09-24T15:59:55.345Z pw:api   done scrolling
+2023-09-24T15:59:55.348Z pw:api   performing click action
+2023-09-24T15:59:55.367Z pw:api   navigated to "https://qa-automation-test-site.web.app/check-box"
+2023-09-24T15:59:55.371Z pw:api   click action done
+2023-09-24T15:59:55.371Z pw:api   waiting for scheduled navigations to finish
+2023-09-24T15:59:55.375Z pw:api   navigations have finished
+2023-09-24T15:59:55.883Z pw:api LocatorAssertions.ToBeAttachedAsync with timeout 5000ms
+2023-09-24T15:59:55.884Z pw:api waiting for Locator("#mat-checkbox-1")
+2023-09-24T15:59:55.888Z pw:api   locator resolved to <mat-checkbox id="mat-checkbox-1" _ngcontent-mxw-c62="" class=ΓÇª>ΓÇª</mat-checkbox>
+2023-09-24T15:59:55.892Z pw:api waiting for Locator("#mat-checkbox-1")
+2023-09-24T15:59:55.896Z pw:api   locator resolved to <mat-checkbox id="mat-checkbox-1" _ngcontent-mxw-c62="" class=ΓÇª>ΓÇª</mat-checkbox>
+2023-09-24T15:59:55.897Z pw:api attempting click action
+2023-09-24T15:59:55.897Z pw:api   waiting for element to be visible, enabled and stable
+2023-09-24T15:59:55.907Z pw:api   element is visible, enabled and stable
+2023-09-24T15:59:55.907Z pw:api   scrolling into view if needed
+2023-09-24T15:59:55.907Z pw:api   done scrolling
+2023-09-24T15:59:55.909Z pw:api   performing click action
+2023-09-24T15:59:55.916Z pw:api   click action done
+2023-09-24T15:59:55.916Z pw:api   waiting for scheduled navigations to finish
+2023-09-24T15:59:55.916Z pw:api   navigations have finished
+2023-09-24T15:59:56.428Z pw:api LocatorAssertions.ToBeCheckedAsync with timeout 5000ms
+2023-09-24T15:59:56.429Z pw:api waiting for Locator("#mat-checkbox-1-input")
+2023-09-24T15:59:56.430Z pw:api   locator resolved to <input tabindex="0" type="checkbox" aria-checked="true"ΓÇª/>
+2023-09-24T15:59:56.432Z pw:api LocatorAssertions.ToBeCheckedAsync with timeout 5000ms
+2023-09-24T15:59:56.432Z pw:api waiting for Locator("#mat-checkbox-2-input")
+2023-09-24T15:59:56.434Z pw:api   locator resolved to <input tabindex="0" type="checkbox" aria-checked="true"ΓÇª/>
+2023-09-24T15:59:56.435Z pw:api LocatorAssertions.ToBeCheckedAsync with timeout 5000ms
+2023-09-24T15:59:56.435Z pw:api waiting for Locator("#mat-checkbox-3-input")
+2023-09-24T15:59:56.437Z pw:api   locator resolved to <input tabindex="0" type="checkbox" aria-checked="true"ΓÇª/>
+2023-09-24T15:59:56.438Z pw:api LocatorAssertions.ToBeCheckedAsync with timeout 5000ms
+2023-09-24T15:59:56.439Z pw:api waiting for Locator("#mat-checkbox-4-input")
+2023-09-24T15:59:56.440Z pw:api   locator resolved to <input tabindex="0" type="checkbox" aria-checked="true"ΓÇª/>
+2023-09-24T15:59:56.452Z pw:api taking page screenshot

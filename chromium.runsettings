@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <TestRunParameters>
+    <Parameter name="BaseUrl" value="https://qa-automation-test-site.web.app/"/>
+    <Parameter name="UserName" value="test@test.com"/>
+    <Parameter name="Password" value="test"/>
+  </TestRunParameters>
+  <NUnit>
+    <NumberOfTestWorkers>24</NumberOfTestWorkers>
+  </NUnit>
+  <RunConfiguration>
+    <EnvironmentVariables>
+      <!-- For debugging selectors, it's recommend to set the following environment variable -->
+      <DEBUG>pw:api</DEBUG>
+    </EnvironmentVariables>
+  </RunConfiguration>
+  <Playwright>
+    <BrowserName>chromium</BrowserName>
+    <ExpectTimeout>5000</ExpectTimeout>
+    <LaunchOptions>
+      <Headless>false</Headless>
+      <SlowMo>500</SlowMo>
+      <Channel>msedge</Channel>
+    </LaunchOptions>
+  </Playwright>
+</RunSettings>
